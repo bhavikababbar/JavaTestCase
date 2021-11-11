@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 23.895 s <<< FAILURE! - in TestSuite
+testcases.LoginTestSeeker.beforeTest  Time elapsed: 3.745 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 95.0.4638.69 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YG-LT-031', ip: '192.168.2.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009D2A33+2501171]
+	Ordinal0 [0x0096D1C1+2085313]
+	Ordinal0 [0x00871FA8+1056680]
+	Ordinal0 [0x0089020A+1180170]
+	Ordinal0 [0x0088C125+1163557]
+	Ordinal0 [0x0088997F+1153407]
+	Ordinal0 [0x008B999F+1350047]
+	Ordinal0 [0x008B960A+1349130]
+	Ordinal0 [0x008B551B+1332507]
+	Ordinal0 [0x00891D74+1187188]
+	Ordinal0 [0x00892BD9+1190873]
+	GetHandleVerifier [0x00B4EFE6+1504438]
+	GetHandleVerifier [0x00BFDDA5+2220661]
+	GetHandleVerifier [0x00A55589+481881]
+	GetHandleVerifier [0x00A54639+477961]
+	Ordinal0 [0x009728BD+2107581]
+	Ordinal0 [0x00976728+2123560]
+	Ordinal0 [0x00976862+2123874]
+	Ordinal0 [0x0097FA81+2161281]
+	BaseThreadInitThunk [0x76B0FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77027A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77027A6E+238]
+
+
